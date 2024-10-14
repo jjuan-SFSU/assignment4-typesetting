@@ -94,3 +94,43 @@ section p:first-of-type {
     text-indent: 1.25rem; /* Indentation for first paragraph */
 }
 
+a {
+    color: #0056b3; /* Default link color (matches top and bottom bars) */
+    text-decoration: underline; /* Underlined by default */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Visited link state */
+a:visited {
+    color: #4b0082; /* Darker color for visited links */
+}
+
+/* Hover and focus states */
+a:hover, a:focus {
+    color: #003366; /* Slightly darker shade on hover/focus */
+    text-decoration: none; /* Remove underline on hover/focus */
+}
+
+/* Active link state */
+a:active {
+    color: #ff6347; /* Bright color for active link (stands out) */
+    background-color: #f0f0f0; /* Subtle background change */
+    text-decoration: underline; /* Re-introduce underline for active state */
+    padding: 2px; /* Add some padding to make it more noticeable */
+}
+
+/* External link styling with icon */
+a[href^="http"]:after {
+    content: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTggMkg3VjNIMTMuNTg2TDYuNzkyIDkuNzkxTDUuNzA4IDguNzA4TDEyLjQxNCAySDEwVjFINFYySDhWNloiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTEgMTRWM0gxME0xIDFMNSAxTTEwIDEwTDE0IDFMNiAxMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4='); /* External link icon */
+    margin-left: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+/* External links to open in new tab (optional) */
+a[href^="http"] {
+    target: _blank;
+}
+
