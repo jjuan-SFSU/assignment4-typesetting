@@ -48,14 +48,5 @@ html {
   font-size: 10px
 }
 
-body {
-    font-family: Arial, sans-serif;
-    font-size: 1.6rem; /* 16px (default for body text) */
-    line-height: 1.6; /* Appropriate line-height for readability */
-    letter-spacing: 0.05rem;
-    word-spacing: 0.1rem;
-    margin: 0;
-    padding: 0;
-}
 
 
