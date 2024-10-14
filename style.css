@@ -44,7 +44,19 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
+html {
+	font-size: 0.625rem;
+}
+
+h1, h2 {
+	font-family: Cambria, sans-serif; 
+}
+
 body {
-	font-size: 0.625em;
+	font-family: Calibri, sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
 }
 
