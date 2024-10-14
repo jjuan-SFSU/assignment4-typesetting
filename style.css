@@ -54,9 +54,16 @@ h1, h2 {
 
 body {
 	font-family: Calibri, sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.6;
+	letter-spacing: 0.05rem;
+    word-spacing: 0.1rem;
+	text-indent: 1rem;
 }
 
-h1, h2 {
-	font-size: 2rem;
+h1 {
+	font-size: 3.2rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
 }
 
