@@ -116,11 +116,12 @@ ul {
   list-style-type: square;
 }
 
-nav {
+nav ul;{
 	list-style-type: none;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
 }
 
 nav ul li a{
