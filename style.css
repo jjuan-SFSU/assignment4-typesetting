@@ -138,7 +138,6 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   background-color: white; /* Button background color (you can customize) */
-  color: black;
   text-decoration: none; /* Removes underline */
   border-radius: 5px; /* Rounded corners */
   border: 2px solid #a66; /* Optional: Add a border */
