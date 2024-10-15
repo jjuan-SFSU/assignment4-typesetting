@@ -116,7 +116,7 @@ ul {
   list-style-type: square;
 }
 
-nav {
+nav ul li{
 	font-size: 3rem; 
 }
 
