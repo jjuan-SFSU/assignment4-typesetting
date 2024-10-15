@@ -114,37 +114,5 @@ ul {
   list-style-type: square;
 }
 
-/* Basic styling for the nav container */
-nav {
-  text-align: center; /* Centers the nav menu */
-}
 
-/* Remove default list styles from the ul */
-nav ul {
-  list-style: none; /* Remove bullets */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  display: flex; /* Align list items horizontally */
-  flex-direction: column; 
-  justify-content: space-between; /* Center the menu items */
-}
-
-/* Style the list items */
-nav ul li {
-  margin: 10px 0px ; /* Space between buttons */
-}
-
-/* Style the links to look like buttons */
-nav ul li a {
-  flex-basis: 100%;
-  display: flex;
-  background-color: white; /* Button background color (you can customize) */
-  color: black;
-  text-decoration: none; /* Removes underline */
-  border-radius: 5px; /* Rounded corners */
-  border: 2px solid #a66; /* Optional: Add a border */
-  font-size: 16px; /* Text size */
-  text-align: center;
-  transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
-}
 
