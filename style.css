@@ -133,6 +133,12 @@ nav ul {
     gap: 10px;
 }
 
+nav ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
 nav ul li a{
 	nav ul li a {
     padding: 10px 10px;
