@@ -125,6 +125,7 @@ nav ul {
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
   display: flex; /* Align list items horizontally */
+  flex-direction: column; 
   justify-content: center; /* Center the menu items */
 }
 
