@@ -131,7 +131,7 @@ nav ul {
 
 /* Style the list items */
 nav ul li {
-  margin: 0 10px; /* Space between buttons */
+  margin: 10px ; /* Space between buttons */
 }
 
 /* Style the links to look like buttons */
