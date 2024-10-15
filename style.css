@@ -104,3 +104,8 @@ a[href^="http"]::after {
   background-size: 100%;
   background-image: url("external-link-52.png");
 }
+
+ul, ol, li {
+	letter-spacing: 0.05rem;
+    word-spacing: 0.1rem;
+}
