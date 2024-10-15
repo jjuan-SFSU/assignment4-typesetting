@@ -136,7 +136,7 @@ nav ul li {
 
 /* Style the links to look like buttons */
 nav ul li a {
-	flex-basis: 100%;
+  flex-basis: 100%;
   display: inline-block;
   background-color: white; /* Button background color (you can customize) */
   color: black;
@@ -144,6 +144,7 @@ nav ul li a {
   border-radius: 5px; /* Rounded corners */
   border: 2px solid #a66; /* Optional: Add a border */
   font-size: 16px; /* Text size */
+  text-align: center;
   transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
 
