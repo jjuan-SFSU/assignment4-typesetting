@@ -112,6 +112,5 @@ ul, ol, li {
 
 ul {
   list-style-type: square;
-  padding-left: 20px;
-}
+  padding-left: 1rem;
 }
