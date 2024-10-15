@@ -117,37 +117,27 @@ ul {
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
+  text-align: center; /* Centers the nav menu */
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+nav ul{
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
 }
 
 nav ul li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    unicode-bidi: isolate;
+  margin: 0 10px; /* Space between buttons */
 }
 
 nav ul li a{
-	nav ul li a {
-    padding: 10px 10px;
-    display: inline-block;
-    border: 5px solid sienna;
-    border-radius: 5px;
-    font-size: 12px;
-    text-align: center;
-    width: 150px;
-}
+	display: inline-block;
+	font-size: 3rem; 
+	padding: 10px 20px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
 }
 
