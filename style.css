@@ -136,13 +136,12 @@ nav ul li {
 
 /* Style the links to look like buttons */
 nav ul li a {
-  display: inline-block; /* Makes the links behave like buttons */
-  padding: 10px 20px; /* Adds space inside the button */
-  background-color: #007bff; /* Button background color (you can customize) */
-  color: white; /* Text color */
+  display: inline-block;
+  background-color: white; /* Button background color (you can customize) */
+  color: white;
   text-decoration: none; /* Removes underline */
   border-radius: 5px; /* Rounded corners */
-  border: 2px solid transparent; /* Optional: Add a border */
+  border: 2px solid #a66; /* Optional: Add a border */
   font-size: 16px; /* Text size */
   transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
