@@ -114,3 +114,46 @@ ul {
   list-style-type: square;
   padding-left: 1rem;
 }
+
+/* Basic styling for the nav container */
+nav {
+  text-align: center; /* Centers the nav menu */
+}
+
+/* Remove default list styles from the ul */
+nav ul {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Align list items horizontally */
+  justify-content: center; /* Center the menu items */
+}
+
+/* Style the list items */
+nav ul li {
+  margin: 0 10px; /* Space between buttons */
+}
+
+/* Style the links to look like buttons */
+nav ul li a {
+  display: inline-block; /* Makes the links behave like buttons */
+  padding: 10px 20px; /* Adds space inside the button */
+  background-color: #007bff; /* Button background color (you can customize) */
+  color: white; /* Text color */
+  text-decoration: none; /* Removes underline */
+  border-radius: 5px; /* Rounded corners */
+  border: 2px solid transparent; /* Optional: Add a border */
+  font-size: 16px; /* Text size */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
+}
+
+/* Change button color on hover */
+nav ul li a:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #004080; /* Change border color on hover */
+}
+
+/* Active button state */
+nav ul li a:active {
+  background-color: #003f7f; /* Even darker shade when clicked */
+}
