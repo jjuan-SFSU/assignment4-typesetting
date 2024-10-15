@@ -52,7 +52,7 @@ h1, h2 {
 	font-family: Cambria, sans-serif; 
 }
 
-p {
+p, ul {
 	font-family: Calibri, sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.6;
@@ -67,3 +67,9 @@ h1 {
 	letter-spacing: 0.1rem;
 }
 
+h2 {
+	font-size: 1.6rem;
+	line-height: 1.6;
+	letter-spacing: 0.05rem;
+    word-spacing: 0.1rem;
+}
