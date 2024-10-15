@@ -126,7 +126,7 @@ nav ul {
   margin: 0; /* Remove default margin */
   display: flex; /* Align list items horizontally */
   flex-direction: column; 
-  justify-content: center; /* Center the menu items */
+  justify-content: space-between; /* Center the menu items */
 }
 
 /* Style the list items */
@@ -145,7 +145,6 @@ nav ul li a {
   border: 2px solid #a66; /* Optional: Add a border */
   font-size: 16px; /* Text size */
   text-align: center;
-  justify-content: space-between;
   transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
 
