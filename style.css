@@ -116,6 +116,13 @@ ul {
   list-style-type: square;
 }
 
+nav {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
 nav ul li a{
 	font-size: 3rem; 
 }
