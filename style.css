@@ -130,14 +130,14 @@ nav ul{
 }
 
 nav ul li {
-  margin: 0 10px; /* Space between buttons */
+  margin: 50 0px; /* Space between buttons */
 }
 
 nav ul li a{
 	display: inline-block; /* Makes the links behave like buttons */
   padding: 10px 20px; /* Adds space inside the button */
-  background-color: #007bff; /* Button background color (you can customize) */
-  color: white; /* Text color */
+  background-color: white; /* Button background color (you can customize) */
+  color: black; /* Text color */
   text-decoration: none; /* Removes underline */
   border-radius: 5px; /* Rounded corners */
   border: 2px solid transparent; /* Optional: Add a border */
