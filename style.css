@@ -109,3 +109,9 @@ ul, ol, li {
 	letter-spacing: 0.05rem;
     word-spacing: 0.1rem;
 }
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+}
