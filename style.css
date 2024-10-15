@@ -136,6 +136,7 @@ nav ul li {
 
 /* Style the links to look like buttons */
 nav ul li a {
+	flex-basis: 100%;
   display: inline-block;
   background-color: white; /* Button background color (you can customize) */
   color: black;
