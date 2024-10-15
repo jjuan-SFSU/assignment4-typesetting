@@ -126,7 +126,7 @@ nav ul {
   margin: 0; /* Remove default margin */
   display: flex; /* Align list items horizontally */
   flex-direction: column; 
-  justify-content: center; /* Center the menu items */
+  justify-content: space-around; /* Center the menu items */
 }
 
 /* Style the list items */
@@ -147,13 +147,3 @@ nav ul li a {
   transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
 
-/* Change button color on hover */
-nav ul li a:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-  border-color: #004080; /* Change border color on hover */
-}
-
-/* Active button state */
-nav ul li a:active {
-  background-color: #003f7f; /* Even darker shade when clicked */
-}
