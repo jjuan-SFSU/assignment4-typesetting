@@ -123,6 +123,7 @@ nav {
 nav ul{
 	list-style-type: none;
 	display: flex;
+	flex-direction: column
 	padding: 0;
 	margin: 0;
 	justify-content: center;
@@ -133,11 +134,14 @@ nav ul li {
 }
 
 nav ul li a{
-	display: inline-block;
-	font-size: 3rem; 
-	padding: 10px 20px;
-	background-color: white;
-	color: black;
-	text-decoration: none;
+	display: inline-block; /* Makes the links behave like buttons */
+  padding: 10px 20px; /* Adds space inside the button */
+  background-color: #007bff; /* Button background color (you can customize) */
+  color: white; /* Text color */
+  text-decoration: none; /* Removes underline */
+  border-radius: 5px; /* Rounded corners */
+  border: 2px solid transparent; /* Optional: Add a border */
+  font-size: 16px; /* Text size */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
 
