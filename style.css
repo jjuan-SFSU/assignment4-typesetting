@@ -146,12 +146,12 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-  border-color: #004080; /* Change border color on hover */
+  background-color: #d3d3d3; /* Darker shade on hover */
+  border-color: #910d25; /* Change border color on hover */
 }
 
 /* Active button state */
 nav ul li a:active {
-  background-color: #003f7f; /* Even darker shade when clicked */
+  background-color: #808080; /* Even darker shade when clicked */
 }
 
