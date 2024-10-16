@@ -137,11 +137,21 @@ nav ul li a{
 	display: inline-block; /* Makes the links behave like buttons */
   padding: 10px 20px; /* Adds space inside the button */
   background-color: white; /* Button background color (you can customize) */
-  color: black; /* Text color */
+  color: #a66; /* Text color */
   text-decoration: none; /* Removes underline */
   border-radius: 5px; /* Rounded corners */
-  border: 2px solid black; /* Optional: Add a border */
+  border: 2px solid #a66; /* Optional: Add a border */
   font-size: 16px; /* Text size */
   transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #004080; /* Change border color on hover */
+}
+
+/* Active button state */
+nav ul li a:active {
+  background-color: #003f7f; /* Even darker shade when clicked */
 }
 
