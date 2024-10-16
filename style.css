@@ -130,28 +130,28 @@ nav ul{
 }
 
 nav ul li {
-  margin: 20px 0px; /* Space between buttons */
+	margin: 20px 0px; /* Space between buttons */
 }
 
 nav ul li a{
 	display: inline-block; /* Makes the links behave like buttons */
-  padding: 10px 20px; /* Adds space inside the button */
-  background-color: white; /* Button background color (you can customize) */
-  color: #a66; /* Text color */
-  text-decoration: none; /* Removes underline */
-  border-radius: 5px; /* Rounded corners */
-  border: 2px solid #a66; /* Optional: Add a border */
-  font-size: 16px; /* Text size */
-  transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
+	padding: 10px 20px; /* Adds space inside the button */
+	background-color: white; /* Button background color (you can customize) */
+	color: #a66; /* Text color */
+	text-decoration: none; /* Removes underline */
+	border-radius: 5px; /* Rounded corners */
+	border: 2px solid #a66; /* Optional: Add a border */
+	font-size: 16px; /* Text size */
+	transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
 }
 
 nav ul li a:hover {
-  background-color: #d3d3d3; /* Darker shade on hover */
-  border-color: #910d25; /* Change border color on hover */
+	background-color: #d3d3d3; /* Darker shade on hover */
+	border-color: #910d25; /* Change border color on hover */
 }
 
 /* Active button state */
 nav ul li a:active {
-  background-color: #808080; /* Even darker shade when clicked */
+	background-color: #808080; /* Even darker shade when clicked */
 }
 
